@@ -14,10 +14,14 @@ namespace Tapanyagok.Views
 {
     public partial class TapanyagForm : Form, ITapanyagView
     {
+        private int id;
+
         public TapanyagForm()
         {
             InitializeComponent();
 
+            // TODO: default 0
+            id = tapanyag.id;
             nevTB.Text = tapanyag.nev;
             energiaNUD.Value = tapanyag.energia;
             feherjeNUD.Value = tapanyag.feherje;

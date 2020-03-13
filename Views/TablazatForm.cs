@@ -63,7 +63,8 @@ namespace Tapanyagok.Views
 
         private void ujBtn_Click(object sender, EventArgs e)
         {
-
+            TapanyagForm tapanyagForm = new TapanyagForm();
+            tapanyagForm.Show();
         }
 
         private void torlesBtn_Click(object sender, EventArgs e)
